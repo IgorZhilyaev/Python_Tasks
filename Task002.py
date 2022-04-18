@@ -14,4 +14,15 @@ for i in massive:
         max = i
 print('Наибольшее число: ', max, '\n') # второй способ
 
+a, b, c, d, e = 3, 5, 7, 2, 3
 
+max = a
+if max < b:
+    max = b
+if max < c:
+    max = c
+if max < d:
+    max = d
+if max < e:
+    max = e
+print('Наибольшее число: ', max, '\n') # третий способ
