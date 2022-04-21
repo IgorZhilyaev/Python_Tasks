@@ -41,3 +41,10 @@ if (all([f1, f2, f3, f4, f5, f6, f7, f8])) == True:
     print('Выражение тождественно')
 else:
     print('Выражение НЕ тождественно')"""
+
+"""print('X Y Z F')
+for x in a:
+for y in a:
+for z in a:
+f = not(x or y or z) == (not x and not y and not z)
+print (x, y, z, int(f))"""
