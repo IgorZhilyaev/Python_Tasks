@@ -6,12 +6,15 @@ import os
 os.system("cls")
 
 
-dictionary = {n:3*n+1 for n in range (1,7)}
-print (dictionary)
+#dictionary = {n:3*n+1 for n in range (1,7)}
+#print (dictionary)
 
 
-dictionary = {}
-n = int(input('n = '))
-for i in range(1,n+1):
-    dictionary[i] = 3*i+1
+#dictionary = {}
+#n = int(input('n = '))
+#for i in range(1,n+1):
+#    dictionary[i] = 3*i+1
+#print(dictionary)
+
+dictionary = {x: 3 * x + 1 for x in range(1, int(input('Задайте количество элементов последовательности: '))+1)}
 print(dictionary)
